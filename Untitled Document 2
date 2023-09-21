@@ -1,0 +1,57 @@
+<<!--== Contact Section ==-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <!-- Contact Title -->
+            <div class="col-sm-12">
+                <div class="section-title">
+                    <h2>Contact Us</h2>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Form (You might need to integrate a back-end script to handle submissions) -->
+        <div class="row">
+            <div class="col-sm-6">
+                <form action="path_to_your_script" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--== End of Contact Section ==-->
+
+<!--== Venue Section ==-->
+<section id="venue">
+    <div class="container">
+        <div class="row">
+            <!-- Venue Title -->
+            <div class="col-sm-12">
+                <div class="section-title">
+                    <h2>Venue</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Venue Description & Map -->
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Limperstberg, University of Luxembourg</p>
+                <!-- Google Map Embedding -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.870133670865!2d6.12367241515974!3d49.62200997936763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47954933a39d6d91%3A0xfee79b30c8427e81!2sUniversity%20of%20Luxembourg!5e0!3m2!1sen!2s!4v1629798961236!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
