@@ -446,7 +446,7 @@ Header CTA ========*/
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
     line-height: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background: rgba(197, 239, 247, 0.74);
     padding: 20px;
     margin-bottom: 3px;
