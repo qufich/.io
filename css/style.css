@@ -973,8 +973,8 @@ strong {
   font-weight: bold;
 }
 
-.white{
-  color:white !important;
+.black{
+  color:black !important;
 }
 
 .wrap {
@@ -1059,6 +1059,11 @@ background-color: #C5EFF7;
 
 /* Register/Login */
 
+/* Add this to your CSS file or within a <style> tag in your HTML */
+.fixed-height {
+    width: auto; /* Allow the width to adjust while maintaining aspect ratio */
+    max-height: 150px; /* Set the maximum height to 150 pixels */
+}
 
 .form {
     position: relative;
