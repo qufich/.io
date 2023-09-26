@@ -269,7 +269,7 @@ input[type='submit']:active {
 }
 
 header{
-  background: url(../images/demo/bg-slide-01.jpg);
+  background: url(../images/demo/bg-slide-02.jpg);
   background-size: cover;
 }
 .header-bg {
@@ -338,19 +338,13 @@ header{
 
 /*--------------------
 Main Slider ========*/
-
-/* Add this to your CSS file or within a <style> tag in your HTML */
 .main-slider .slides img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+  position: absolute;
+  width: 100%;
+  min-width: 1200px;
+  left: 50%;
 
+}
 
 /*--------------------
 About us ========*/
@@ -452,7 +446,7 @@ Header CTA ========*/
     font-family: 'Oswald', sans-serif;
     font-size: 46px;
     line-height: 52px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     background: rgba(197, 239, 247, 0.74);
     padding: 20px;
     margin-bottom: 3px;
@@ -979,8 +973,8 @@ strong {
   font-weight: bold;
 }
 
-.black{
-  color:black !important;
+.white{
+  color:white !important;
 }
 
 .wrap {
@@ -1065,11 +1059,6 @@ background-color: #C5EFF7;
 
 /* Register/Login */
 
-/* Add this to your CSS file or within a <style> tag in your HTML */
-.fixed-height {
-    width: auto; /* Allow the width to adjust while maintaining aspect ratio */
-    max-height: 150px; /* Set the maximum height to 150 pixels */
-}
 
 .form {
     position: relative;
