@@ -148,8 +148,8 @@
         Slider: function () {
             $('.flexslider').flexslider({
                 noCSS: true,
-                touch: false,
-                directionNav: false,
+                touch: true,
+                directionNav: true,
                 animation: "fade"
             });
         },
